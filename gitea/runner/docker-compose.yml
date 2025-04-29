@@ -9,7 +9,6 @@ services:
     networks:
       - root_gitea
     volumes:
-      - ./config.yaml:/config.yaml
       - /var/lib/gitea/runner/1/:/data
       - /var/run/docker.sock:/var/run/docker.sock
 
